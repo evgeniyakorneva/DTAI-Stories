@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SRL | DTAI</title><link>https://dtai.cs.kuleuven.be/stories/tags/srl/</link><atom:link href="https://dtai.cs.kuleuven.be/stories/tags/srl/index.xml" rel="self" type="application/rss+xml"/><description>SRL</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 16:58:21 +0100</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>SRL</title><link>https://dtai.cs.kuleuven.be/stories/tags/srl/</link></image><item><title>ProbLog: Probabilistic Logic Programming</title><link>https://dtai.cs.kuleuven.be/stories/post/problog/problog/</link><pubDate>Wed, 01 Jan 2020 16:58:21 +0100</pubDate><guid>https://dtai.cs.kuleuven.be/stories/post/problog/problog/</guid><description>
+&lt;div class="card relpub">
+&lt;div class="card-body">
+&lt;small>
+&lt;p>This post is based on the following publications:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://lirias.kuleuven.be/369046">ProbLog2: Probabilistic logic programming&lt;/a>, Dries, Anton; Kimmig, Angelika; Meert, Wannes; Renkens, Joris; Van den Broeck, Guy; Vlasselaer, Jonas; De Raedt, Luc. Lecture ECML PKDD Demo. Notes in Computer Science book series (LNCS, volume 9286), 2015.&lt;/li>
+&lt;li>&lt;a href="https://lirias.kuleuven.be/bitstream/123456789/392821/3/plp2cnf.pdf">Inference and learning in probabilistic logic programs using weighted Boolean formulas&lt;/a>, Daan Fierens, Guy Van den Broeck, Joris Renkens, Dimitar Shterionov, Bernd Gutmann, Ingo Thon, Gerda Janssens, and Luc De Raedt. Theory and Practice of Logic Programming, 2015.&lt;/li>
+&lt;li>&lt;a href="https://lirias.kuleuven.be/bitstream/123456789/146072/1/ijca">ProbLog: A probabilistic Prolog and its application in link discovery&lt;/a>, L. De Raedt, A. Kimmig, and H. Toivonen, Proceedings of the 20th International Joint Conference on Artificial Intelligence (IJCAI-07), Hyderabad, India, pages 2462-2467, 2007.&lt;/li>
+&lt;/ul>
+&lt;p>Software is available on the &lt;a href="https://dtai.cs.kuleuven.be/problog">ProbLog&lt;/a> website.&lt;/p>
+&lt;/small>
+&lt;/div>
+&lt;/div>
+&lt;p>Probabilistic programming studies probabilistic extensions of programming languages that can be used to model rich domains. The lab has contributed a probabilistic extension of a Prolog, called ProbLog. The resulting language is quite close to a probabilistic database as it imposes probabilities on facts and uses (deterministic) rules to specify dependencies and consequences. Within ProbLog, many techniques for inference and learning have been contributed and ProbLog has also been used in applications in robotics, natural language processing, and bioinformatics.&lt;/p>
+&lt;p>&lt;a href="https://dtai.cs.kuleuven.be/problog">https://dtai.cs.kuleuven.be/problog&lt;/a>&lt;/p></description></item></channel></rss>
