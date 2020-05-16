@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | DTAI</title><link>https://dtai.cs.kuleuven.be/stories/post/</link><atom:link href="https://dtai.cs.kuleuven.be/stories/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 04 May 2020 13:30:43 +0200</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>Posts</title><link>https://dtai.cs.kuleuven.be/stories/post/</link></image><item><title>RobBERT: a Dutch Language Model</title><link>https://dtai.cs.kuleuven.be/stories/post/pieter-delobelle/robbert/</link><pubDate>Mon, 04 May 2020 13:30:43 +0200</pubDate><guid>https://dtai.cs.kuleuven.be/stories/post/pieter-delobelle/robbert/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | DTAI</title><link>https://dtai.cs.kuleuven.be/stories/post/</link><atom:link href="https://dtai.cs.kuleuven.be/stories/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 16 May 2020 10:37:29 +0200</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>Posts</title><link>https://dtai.cs.kuleuven.be/stories/post/</link></image><item><title>Pitfalls in training and evaluating expected goals (xG) models</title><link>https://dtai.cs.kuleuven.be/stories/post/sports/xg/</link><pubDate>Sat, 16 May 2020 10:37:29 +0200</pubDate><guid>https://dtai.cs.kuleuven.be/stories/post/sports/xg/</guid><description>&lt;p>&lt;img src="hero.jpg" alt="hero.jpg">&lt;/p>
+&lt;p>Expected goals (xG) measures the quality of a shot attempt in soccer based on several variables
+such as the shot&amp;rsquo;s angle and distance from goal, whether it was a headed
+shot or a free kick, etc. Adding up a player or team&amp;rsquo;s xG can give an indication
+of how many goals a player or team should have scored on average, given the
+shots they have taken. It has become the most used and best understood advanced
+metric in the world of football, but training an accurate xG model is not as simple as it
+may seem. In series of blog posts, we discuss the technical aspects of data selection,
+feature modelling and model evaluation.&lt;/p>
+&lt;div class="card relpub">
+&lt;div class="card-body">
+&lt;small>
+&lt;h4 id="how-data-availability-affects-the-ability-to-learn-good-xg-models">HOW DATA AVAILABILITY AFFECTS THE ABILITY TO LEARN GOOD XG MODELS&lt;/h4>
+&lt;p>The available training data can affect the quality of an xG model. This blogpost answers 3 questions:&lt;/p>
+&lt;ul>
+&lt;li>How much data is needed to train an xG model?&lt;/li>
+&lt;li>Does data go out of date?&lt;/li>
+&lt;li>Is there a league-specific effect?&lt;/li>
+&lt;/ul>
+&lt;p>See the full post at &lt;a href="https://dtai.cs.kuleuven.be/sports/blog/how-data-availability-affects-the-ability-to-learn-good-xg-models">https://dtai.cs.kuleuven.be/sports/blog/how-data-availability-affects-the-ability-to-learn-good-xg-models&lt;/a>&lt;/p>
+&lt;/small>
+&lt;/div>
+&lt;/div>
+&lt;div class="card relpub">
+&lt;div class="card-body">
+&lt;small>
+&lt;h4 id="illustrating-the-interplay-between-features-and-models-in-xg">ILLUSTRATING THE INTERPLAY BETWEEN FEATURES AND MODELS IN XG&lt;/h4>
+&lt;p>The shot&amp;rsquo;s location is among the most important and predictive features in
+an xG model. How one should encode this location is not trivial and
+requires a good understanding of some key ML concepts.&lt;/p>
+&lt;p>See the full post at &lt;a href="https://dtai.cs.kuleuven.be/sports/blog/illustrating-the-interplay-between-features-and-models-in-xg">https://dtai.cs.kuleuven.be/sports/blog/illustrating-the-interplay-between-features-and-models-in-xg&lt;/a>&lt;/p>
+&lt;/small>
+&lt;/div>
+&lt;/div></description></item><item><title>RobBERT: a Dutch Language Model</title><link>https://dtai.cs.kuleuven.be/stories/post/pieter-delobelle/robbert/</link><pubDate>Mon, 04 May 2020 13:30:43 +0200</pubDate><guid>https://dtai.cs.kuleuven.be/stories/post/pieter-delobelle/robbert/</guid><description>
 &lt;div class="card relpub">
 &lt;div class="card-body">
 &lt;small>
@@ -45,12 +78,67 @@
 &lt;h1 id="results">Results&lt;/h1>
 &lt;p>We evaluated RobBERT on two tasks with Dutch text inputs: (i) sentiment analysis and distinguishing between &lt;em>die&lt;/em> and &lt;em>dat&lt;/em>. Table 1 shows the results, where we trained most models twice. Once on the full training set and once on a smaller subset, to highlight a benefit of monolingual language resources over multilingual ones.&lt;/p>
 &lt;p>&lt;img src="results_table.png" alt="results_table.png">&lt;/p>
-&lt;h1 id="heading">&lt;/h1></description></item><item><title>Exploring How Vaep Values Actions</title><link>https://dtai.cs.kuleuven.be/stories/post/sports/exploring-how-vaep-values-actions/</link><pubDate>Mon, 27 Apr 2020 10:37:29 +0200</pubDate><guid>https://dtai.cs.kuleuven.be/stories/post/sports/exploring-how-vaep-values-actions/</guid><description>
+&lt;h1 id="heading">&lt;/h1></description></item><item><title>Valuing actions in soccer</title><link>https://dtai.cs.kuleuven.be/stories/post/sports/exploring-how-vaep-values-actions/</link><pubDate>Mon, 27 Apr 2020 10:37:29 +0200</pubDate><guid>https://dtai.cs.kuleuven.be/stories/post/sports/exploring-how-vaep-values-actions/</guid><description>&lt;p>&lt;img src="hero.png" alt="hero.png">&lt;/p>
+&lt;p>VAEP (Valuing Actions by Estimating Probabilities) is a framework for valuing player actions in soccer. It assigns a value to each on-the-ball action in event stream data based on its impact on the game outcome while accounting for the context in which the action happened. In the series of blog posts below, we explain the methodology behind VAEP, how VAEP relates to other similar frameworks and use it to analyse a season of the English Premier League and Belgian Jupiler Pro League.&lt;/p>
 &lt;div class="card relpub">
 &lt;div class="card-body">
 &lt;small>
-&lt;p>We created an interactive tool to explore how VAEP values player actions in soccer.&lt;/p>
-&lt;p>See the full post at &lt;a href="https://dtai.cs.kuleuven.be/sports/blog/exploring-how-vaep-values-actions">https://dtai.cs.kuleuven.be/sports/blog/exploring-how-vaep-values-actions&lt;/a>&lt;/p>
+&lt;h4 id="exploring-how-vaep-values-actions">EXPLORING HOW VAEP VALUES ACTIONS&lt;/h4>
+&lt;p>This blog post introduces an interactive visualization that explains the
+methodology behind VAEP and a tool to explore how VAEP values player actions in
+soccer.&lt;/p>
+&lt;p>See the full post at &lt;a href="https://dtai.cs.kuleuven.be/sports/blog/exploring-how-vaep-values-actions">https://dtai.cs.kuleuven.be/sports/blog/exploring-how-vaep-values-actions&lt;/a>&lt;br>
+The interactive can be viewed at &lt;a href="https://dtai.cs.kuleuven.be/sports/vaep">https://dtai.cs.kuleuven.be/sports/vaep&lt;/a>&lt;/p>
+&lt;/small>
+&lt;/div>
+&lt;/div>
+&lt;div class="card relpub">
+&lt;div class="card-body">
+&lt;small>
+&lt;h4 id="introducing-atomic-spadl-a-new-way-to-represent-event-stream-data">INTRODUCING ATOMIC-SPADL: A NEW WAY TO REPRESENT EVENT STREAM DATA&lt;/h4>
+&lt;p>This blog post discusses Atomic-SPADL &amp;ndash; an alternative data representation for
+soccer event stream data &amp;ndash; and how it affects learning models like VAEP.&lt;/p>
+&lt;p>See the full post at &lt;a href="https://dtai.cs.kuleuven.be/sports/blog/introducing-atomic-spadl:-a-new-way-to-represent-event-stream-data">https://dtai.cs.kuleuven.be/sports/blog/introducing-atomic-spadl:-a-new-way-to-represent-event-stream-data&lt;/a>&lt;/p>
+&lt;/small>
+&lt;/div>
+&lt;/div>
+&lt;div class="card relpub">
+&lt;div class="card-body">
+&lt;small>
+&lt;h4 id="a-critical-comparison-of-xt-and-vaep">A CRITICAL COMPARISON OF XT AND VAEP&lt;/h4>
+&lt;p>This blog post contextualizes VAEP within the existing work and discusses how
+it differs from ball-progression frameworks such as xT.&lt;/p>
+&lt;p>See the full post at &lt;a href="https://dtai.cs.kuleuven.be/sports/blog/valuing-on-the-ball-actions-in-soccer:-a-critical-comparison-of-xt-and-vaep">https://dtai.cs.kuleuven.be/sports/blog/valuing-on-the-ball-actions-in-soccer:-a-critical-comparison-of-xt-and-vaep&lt;/a>&lt;/p>
+&lt;/small>
+&lt;/div>
+&lt;/div>
+&lt;div class="card relpub">
+&lt;div class="card-body">
+&lt;small>
+&lt;h4 id="our-thoughts-on-american-soccer-analysis-g-metric">OUR THOUGHTS ON AMERICAN SOCCER ANALYSIS&amp;rsquo; G+ METRIC&lt;/h4>
+&lt;p>Continuing on the blog post above, this post discusses how VAEP differs from American Soccer Analysis&amp;rsquo; g+ metric&lt;/p>
+&lt;p>See the full post at &lt;a href="https://dtai.cs.kuleuven.be/sports/blog/our-thoughts-on-american-soccer-analysis'-g+-metric">https://dtai.cs.kuleuven.be/sports/blog/our-thoughts-on-american-soccer-analysis'-g+-metric&lt;/a>&lt;/p>
+&lt;/small>
+&lt;/div>
+&lt;/div>
+&lt;div class="card relpub">
+&lt;div class="card-body">
+&lt;small>
+&lt;h4 id="a-data-driven-review-of-the-first-premier-league-half">A DATA-DRIVEN REVIEW OF THE FIRST PREMIER LEAGUE HALF&lt;/h4>
+&lt;p>A short analysis of the first half of the 2019/2020 Premier League season to
+identify the best team, the best signings, the rising talents and some of the highest-rated passes.&lt;/p>
+&lt;p>See the full post at &lt;a href="https://dtai.cs.kuleuven.be/sports/blog/a-data-driven-review-of-the-first-premier-league-half">https://dtai.cs.kuleuven.be/sports/blog/a-data-driven-review-of-the-first-premier-league-half&lt;/a>&lt;/p>
+&lt;/small>
+&lt;/div>
+&lt;/div>
+&lt;div class="card relpub">
+&lt;div class="card-body">
+&lt;small>
+&lt;h4 id="een-terugblik-op-de-jupiler-pro-league">EEN TERUGBLIK OP DE JUPILER PRO LEAGUE&lt;/h4>
+&lt;p>An analysis of the 2019/2020 season of the Belgian Jupiler Pro League. We
+discuss how teams evolved during the season, which players performed best and
+identify the most exciting games.&lt;/p>
+&lt;p>See the full post (in Dutch) at &lt;a href="https://dtai.cs.kuleuven.be/sports/blog/een-terugblik-op-de-jupiler-pro-league">https://dtai.cs.kuleuven.be/sports/blog/een-terugblik-op-de-jupiler-pro-league&lt;/a>&lt;/p>
 &lt;/small>
 &lt;/div>
 &lt;/div></description></item><item><title>DeepProbLog</title><link>https://dtai.cs.kuleuven.be/stories/post/robin-manhaeve/deepproblog/</link><pubDate>Tue, 31 Mar 2020 10:36:34 +0200</pubDate><guid>https://dtai.cs.kuleuven.be/stories/post/robin-manhaeve/deepproblog/</guid><description>&lt;p>This is a brief overview of DeepProbLog, a neuro-symbolic framework that integrates the probabilistic logic programming language ProbLog with neural networks.
@@ -399,8 +487,10 @@ $|S| = 2^{r(c+1)+(r+1)c}$ states for an $r \times c$ game), and an even larger n
 &lt;div class="card relpub">
 &lt;div class="card-body">
 &lt;small>
+&lt;p>&lt;img src="hero.png" alt="hero">&lt;/p>
 &lt;p>We give an intuitive explanation of our recent ECMLPKDD 2019 paper on characterizing soccer players’ style of play based on event stream data, provide illustrative use cases and release a small interactive demo.&lt;/p>
-&lt;p>See the full post at &lt;a href="https://dtai.cs.kuleuven.be/sports/blog/player-vectors-characterizing-soccer-players-playing-style">https://dtai.cs.kuleuven.be/sports/blog/player-vectors-characterizing-soccer-players-playing-style&lt;/a>&lt;/p>
+&lt;p>See the full post at &lt;a href="https://dtai.cs.kuleuven.be/sports/blog/player-vectors-characterizing-soccer-players-playing-style">https://dtai.cs.kuleuven.be/sports/blog/player-vectors-characterizing-soccer-players-playing-style&lt;/a>&lt;br>
+A demo is available at &lt;a href="https://dtai.cs.kuleuven.be/sports/player_vectors">https://dtai.cs.kuleuven.be/sports/player_vectors&lt;/a>&lt;/p>
 &lt;/small>
 &lt;/div>
 &lt;/div></description></item></channel></rss>
